@@ -1,6 +1,6 @@
 <template>
   <article
-    class="prose dark:prose-invert max-w-[700px] min-w-[350px] prose-pre:bg-white dark:prose-pre:bg-gray-800 prose-pre:text-gray-700 dark:prose-pre:text-gray-300 mx-auto"
+    class="max-w-[700px] min-w-[350px] prose dark:prose-invert prose-pre:bg-white dark:prose-pre:bg-gray-800 prose-pre:text-gray-700 dark:prose-pre:text-gray-300 mx-auto"
   >
     <ContentDoc>
       <template #not-found>
