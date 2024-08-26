@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-const { error, pending, data } = await useFetch(
+const { error, data } = await useFetch(
   "https://api.github.com/users/gonzaloencinar/repos",
   { lazy: true }
 );

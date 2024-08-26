@@ -1,9 +1,3 @@
-# Hello
+# Hola desarrollador! 👋🏼
 
-## I'm Piotr
-
-Read more [about me](/about), or see my latest [projects](/projects)
-
-## Latest on my blog
-
-::latest-blog-posts{:limit=3}
+Bienvenid@ a mi pequeño rincón en internet donde comparto todo lo que creo que puede ayudar al Gonzalo que empezaba en este mundillo hace escasos años.
