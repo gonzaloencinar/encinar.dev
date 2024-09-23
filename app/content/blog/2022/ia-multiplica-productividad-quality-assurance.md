@@ -1,5 +1,5 @@
 ---
-publishedAt: 2023-07-12 17:15:00
+publishedAt: 2023-07-12T17:15:00.000Z
 ---
 
 # La IA como multiplicador de productividad en el Quality Assurance.
@@ -175,7 +175,6 @@ Feature: Calculadora Científica
     Given tengo un ángulo de 30 grados convertido a radianes
     When calculo la tangente del ángulo
     Then el resultado debe ser 0.5773
-
 ```
 
 Estos escenarios están escritos de acuerdo con la sintaxis de Gherkin y pueden ser utilizados directamente en tus archivos de características para ejecutar pruebas utilizando Cucumber.
