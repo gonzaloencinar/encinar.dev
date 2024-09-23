@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
+
   devtools: {
     enabled: true,
     timeline: {
@@ -17,7 +18,9 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
   },
+
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxt/content"],
+
   content: {
     highlight: {
       theme: {
@@ -26,9 +29,11 @@ export default defineNuxtConfig({
       },
     },
   },
+
   colorMode: {
     classSuffix: "",
   },
+
   nitro: {
     prerender: {
       routes: ["/sitemap.xml"],
@@ -38,4 +43,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+
+  compatibilityDate: "2024-09-23",
 });
