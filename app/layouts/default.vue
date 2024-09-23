@@ -6,7 +6,7 @@
           <NuxtLink
             to="/"
             class="text-xl font-semibold p-2 hover:bg-gray-200 dark:hover:bg-gray-800"
-            >Gonzalo Encinar
+            >encinar.dev
           </NuxtLink>
         </div>
 
