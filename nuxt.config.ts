@@ -30,9 +30,9 @@ export default defineNuxtConfig({
     },
   },
 
-  colorMode: {
-    classSuffix: "",
-  },
+  // colorMode: {
+  //   classSuffix: "",
+  // },
 
   nitro: {
     prerender: {
