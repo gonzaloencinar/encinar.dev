@@ -7,6 +7,12 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
   extends: ["@nuxt-themes/typography"],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
